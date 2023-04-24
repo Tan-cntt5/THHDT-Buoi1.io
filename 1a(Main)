@@ -56,9 +56,9 @@ public class main {
                         System.out.println("Bạn chưa nhập thông tin xe!");
                     } else {
                     	System.out.println(String.format("%-20s%-15s%-10s%-15s%-10s", "Tên xe", "Loại xe", "Dung tích", "Giá trị", "Thuế"));
-                    	System.out.println(String.format("%-20s%-15s%-10d%-15.1f%-10f", xe1.getTen(), xe1.getloaiXe(), xe1.getDungTich(), xe1.getGiaTri(), xe1.tinhThue()));
-                    	System.out.println(String.format("%-20s%-15s%-10d%-15.1f%-10f", xe2.getTen(), xe2.getloaiXe(), xe2.getDungTich(), xe2.getGiaTri(), xe2.tinhThue()));
-                    	System.out.println(String.format("%-20s%-15s%-10d%-15.1f%-10f", xe3.getTen(), xe3.getloaiXe(), xe3.getDungTich(), xe3.getGiaTri(), xe3.tinhThue()));
+                    	System.out.println(String.format("%-20s%-15s%-10d%-15.1f%-10f", xe1.getten(), xe1.getloaiXe(), xe1.getdungTich(), xe1.getgiaTri(), xe1.tinhThue()));
+                    	System.out.println(String.format("%-20s%-15s%-10d%-15.1f%-10f", xe2.getten(), xe2.getloaiXe(), xe2.getdungTich(), xe2.getgiaTri(), xe2.tinhThue()));
+                    	System.out.println(String.format("%-20s%-15s%-10d%-15.1f%-10f", xe3.getten(), xe3.getloaiXe(), xe3.getdungTich(), xe3.getgiaTri(), xe3.tinhThue()));
                     }
                     break;
 
